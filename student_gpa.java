@@ -3,26 +3,26 @@ import java.util.List;
 class student_gpa{
 	public static void main(String[] args){
 		/*
-		student gabs = new student();
-		gabs.setName("Benjo Gaburno");
-		gabs.setDept("CEA");
+		student gaburno = new student();
+		gaburno.setName("Benjoe Gaburno");
+		gaburno.setDept("CEA");
 
 		subject oop_class = new subject();
 		oop_class.setSubjectName("Object Oriented Programming");
 		oop_class.setGrade(75.00f);
-		gabs.addSubject(oop_class);
+		gaburno.addSubject(oop_class);
 
-		subject trig_class = new subject();
-		trig_class.setSubjectName("Trigonometry");
-		trig_class.setGrade(61.17f);
-		gabs.addSubject(trig_class);
+		subject envi_class = new subject();
+		envi_class.setSubjectName("Environmental Engineering");
+		envi_class.setGrade(61.17f);
+		gaburno.addSubject(gaburno_class);
 
-		System.out.println("Student is " + gabs.getName());
-		System.out.println("Dept: " + gabs.getDept());
+		System.out.println("Student is " + gaburno.getName());
+		System.out.println("Dept: " + gaburno.getDept());
 		
 		System.out.println("Subjects of Student");
 		System.out.println("-------------------");
-		List<subject> subjects_ni_abs = gabs.getSubjects();
+		List<subject> subjects_ni_abs = gaburno.getSubjects();
 		
 		for(subject s : subjects_ni_abs){
 			System.out.println(" -- Subject: " + s.getSubjectName());
