@@ -2,8 +2,8 @@
 class EngSubject extends subject{
 
     int lecUnits;
-    int labUnits;
     boolean hasPRC = false;
+    int labUnits;
 
     public void setHasPRC(boolean flag){
         hasPRC = flag;
